@@ -31,7 +31,7 @@ You only do this once.
 
 ### 2. Put the project files into a local folder
 
-1. Unzip `felixpleiva-website.zip` somewhere you can find it (e.g. `Documents/felixpleiva-site/`).
+1. Unzip `xxxxxxx.zip` somewhere you can find it (e.g. `Documents/xxxxxx-site/`).
 
 ### 3. Add the folder to GitHub Desktop
 
@@ -49,7 +49,7 @@ You only do this once.
 
 ### 5. Turn on GitHub Pages
 
-1. On <https://github.com/felixpleiva/felixpleiva.github.io>, go to **Settings → Pages**.
+1. On <https://github.com/your_repoyour_repo/your_repo.github.io>, go to **Settings → Pages**.
 2. Under *Build and deployment → Source*, choose **Deploy from a branch**.
 3. Set *Branch* to `gh-pages` and folder to `/ (root)`. Click **Save**.
 
