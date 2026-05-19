@@ -1,0 +1,14 @@
+/* Small extra utilities loaded after the SCSS theme */
+.callout-note { border-left-color: #506b54 !important; }
+.profile-row { display: flex; gap: 1rem; flex-wrap: wrap; }
+.button-link {
+  display: inline-block;
+  padding: 0.4rem 0.95rem;
+  border: 1px solid #506b54;
+  color: #506b54;
+  border-radius: 6px;
+  font-weight: 500;
+  margin: 0.25rem 0.4rem 0.25rem 0;
+  text-decoration: none;
+}
+.button-link:hover { background: #506b54; color: #fff; text-decoration: none; }

@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Radboud Doctoral School · 2024 (1-day workshop, ~20 participants)\nA hands-on workshop showing PhD students how to structure a research project so that any collaborator (or future-them) can rerun the entire analysis from raw data to figures with one command.\nTopics covered\n\nProject layout: data/raw, data/processed, R/, outputs/, manuscript/\nPinning package versions with renv\nNumbered analysis scripts and the “no magic numbers” rule\nBuilding manuscripts and supplementary materials with Quarto\nPushing to GitHub and archiving with Zenodo for a citable DOI\n\nMaterials — github.com/felixpleiva/Template_for_publications\n\nSlides Repo"
+  },
+  {
+    "objectID": "teaching.html#workshops",
+    "href": "teaching.html#workshops",
+    "title": "Teaching",
+    "section": "",
+    "text": "Radboud Doctoral School · 2024 (1-day workshop, ~20 participants)\nA hands-on workshop showing PhD students how to structure a research project so that any collaborator (or future-them) can rerun the entire analysis from raw data to figures with one command.\nTopics covered\n\nProject layout: data/raw, data/processed, R/, outputs/, manuscript/\nPinning package versions with renv\nNumbered analysis scripts and the “no magic numbers” rule\nBuilding manuscripts and supplementary materials with Quarto\nPushing to GitHub and archiving with Zenodo for a citable DOI\n\nMaterials — github.com/felixpleiva/Template_for_publications\n\nSlides Repo"
+  },
+  {
+    "objectID": "teaching.html#courses",
+    "href": "teaching.html#courses",
+    "title": "Teaching",
+    "section": "Courses",
+    "text": "Courses\n\n2024 – 2025 — Guest lecturer, Animal Ecophysiology (BSc), Radboud University.\n2014 – 2017 — Lecturer, Marine Biology and Animal Physiology, Universidad de los Lagos (Puerto Montt, Chile)."
+  },
+  {
+    "objectID": "teaching.html#supervision",
+    "href": "teaching.html#supervision",
+    "title": "Teaching",
+    "section": "Supervision",
+    "text": "Supervision\n\n2025 — MSc thesis: Cell size effects on heat tolerance in Drosophila. Radboud University. (co-supervisor)\n2024 — BSc thesis: Variation in oxygen tolerance across populations of fruit flies. Radboud University.\n2016 – 2017 — Three BSc theses on crustacean physiology, Universidad de los Lagos."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A central thread in my work is understanding what sets the upper thermal limits of ectotherms and how those limits scale with body size, cell size, and genome size. By combining experiments on fishes, fruit flies, and crustaceans with comparative analyses across hundreds of species, I try to find the rules that link physiology to biogeography.\nI am currently particularly interested in the following questions:\n\nHow does heat tolerance scale with body mass, cell size, and genome size in water- versus air-breathers?\nTo what extent is intraspecific variation in heat tolerance shaped by oxygen and cell size?\nCan thermal death time (TDT) curves predict tolerance to ecologically realistic heat events?\nHow heritable is heat tolerance, and what is its potential to evolve under climate change?\n\n\nRepo: TDT_DGRP_lines Repo: Genetic_variation_TDT"
+  },
+  {
+    "objectID": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120746865726d6f6d657465722d68616c66203e7d7d-thermal-tolerance-and-the-limits-of-life",
+    "href": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120746865726d6f6d657465722d68616c66203e7d7d-thermal-tolerance-and-the-limits-of-life",
+    "title": "Projects",
+    "section": "",
+    "text": "A central thread in my work is understanding what sets the upper thermal limits of ectotherms and how those limits scale with body size, cell size, and genome size. By combining experiments on fishes, fruit flies, and crustaceans with comparative analyses across hundreds of species, I try to find the rules that link physiology to biogeography.\nI am currently particularly interested in the following questions:\n\nHow does heat tolerance scale with body mass, cell size, and genome size in water- versus air-breathers?\nTo what extent is intraspecific variation in heat tolerance shaped by oxygen and cell size?\nCan thermal death time (TDT) curves predict tolerance to ecologically realistic heat events?\nHow heritable is heat tolerance, and what is its potential to evolve under climate change?\n\n\nRepo: TDT_DGRP_lines Repo: Genetic_variation_TDT"
+  },
+  {
+    "objectID": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077696e64203e7d7d-oxygen-body-size-and-hypoxia-tolerance",
+    "href": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c2066612077696e64203e7d7d-oxygen-body-size-and-hypoxia-tolerance",
+    "title": "Projects",
+    "section": " Oxygen, body size, and hypoxia tolerance",
+    "text": "Oxygen, body size, and hypoxia tolerance\nOxygen supply and demand are central to how animals cope with warming. Together with collaborators I work on how body size and cell size shape the tolerance of fishes and invertebrates to low oxygen, and how those relationships change with temperature.\nI am currently particularly interested in the following questions:\n\nWhy are large fishes more sensitive to hypoxia than small ones — and is this temperature-dependent?\nWhich oxygen-sensing genes underlie variation in critical oxygen thresholds (Pcrit) across fishes?\nDo early life stages set the hypoxia bottleneck for whole-animal performance?\n\n\nRepo: Hypoxia_tolerance_fishes Repo: Genetic_basis_Pcrit"
+  },
+  {
+    "objectID": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206461746162617365203e7d7d-open-databases-for-macrophysiology",
+    "href": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c206661206461746162617365203e7d7d-open-databases-for-macrophysiology",
+    "title": "Projects",
+    "section": " Open databases for macrophysiology",
+    "text": "Open databases for macrophysiology\nMacrophysiology lives or dies on the quality of its underlying data. I lead two open, community-oriented databases that pull together physiological measurements at scales no single lab could achieve.\nI am currently particularly interested in the following questions:\n\nHow do metabolic rates of ectotherms shift along temperature, oxygen, and body-size gradients globally?\nDoes erythrocyte size in fishes mirror body-size and oxygen-availability patterns?\nHow can we make these databases reusable, versioned, and citeable for the next generation of researchers?\n\n\nMetaR — metabolic rates ErythroCite — RBC sizes Organ-size DB"
+  },
+  {
+    "objectID": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f64652d6272616e6368203e7d7d-reproducible-workflows-for-physiology",
+    "href": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f64652d6272616e6368203e7d7d-reproducible-workflows-for-physiology",
+    "title": "Projects",
+    "section": " Reproducible workflows for physiology",
+    "text": "Reproducible workflows for physiology\nEvery paper I lead ships with a public, reproducible repository — raw data, R code, and the figures that made it into the manuscript. I’m slowly building tools and templates around this practice so that the next student or collaborator can rerun an analysis end-to-end with one command.\nI am currently particularly interested in the following questions:\n\nWhat is the minimum scaffold a physiology paper needs to be truly reproducible?\nWhich Quarto + renv + targets patterns are robust enough to teach in a one-week workshop?\nHow do we make data publication as low-friction as preprint posting?\n\n\nTemplate_for_publications ordenaR All paper repos"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Félix P. Leiva",
+    "section": "",
+    "text": "Postdoctoral Researcher\n\n\nRadboud University\n\n\n    \n\n\n\n\nI am from Chile 🇨🇱, where I grew up as an artisanal fisherman, catching Southern hake and other delicious fish. I started working as fisherman when at the age of 12, spending my summer and winter school holidays at sea. Even now, those early days still bring a lump to my throat — a source of great pride and good memories.\nMy research primarily focuses on macrophysiology, complemented by elements of experimental ecophysiology, though this plays a smaller role in my work nowadays. These approaches enable me to uncover how animals thrive and adapt to ever-changing environmental conditions, across space and time."
+  },
+  {
+    "objectID": "index.html#interests",
+    "href": "index.html#interests",
+    "title": "Félix P. Leiva",
+    "section": "Interests",
+    "text": "Interests\n Macrophysiology\n Scaling of traits\n Reproducible scientific workflows"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Félix P. Leiva",
+    "section": "Education",
+    "text": "Education\n\n\n PhD in Science, 2022  Radboud University, the Netherlands\n Aquaculture Engineer, 2011  Universidad Austral de Chile, Chile\n Bachelor in Science and Technology, 2007  Universidad Austral de Chile, Chile"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Notes on R, Bayesian thermal-tolerance models, and the occasional reproducibility rant. Most posts are written in Quarto from real R code that you can copy and adapt.\n\n\n\n\n\n\n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nFitting thermal death time (TDT) curves with brms\n\n\n\nR\n\nbrms\n\nggplot2\n\nthermal-tolerance\n\nbayesian\n\n\n\nA worked example of how I fit and visualise TDT curves in R using brms — from raw survival times to a clean ggplot2 figure with credible intervals.\n\n\n\n\n\nApr 12, 2026\n\n4 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Updated in May 2026\n\n  \n     Full Screen\n  \n  \n     Open in New Tab\n  \n  \n     Download"
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html",
+    "href": "posts/2026-04-tdt-curves-brms/index.html",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "",
+    "text": "Thermal death time (TDT) curves describe how survival time at a stressful temperature decreases as temperature rises. They underpin a lot of recent work on heat tolerance — including our 2024 Functional Ecology paper on intraspecific variation of heat tolerance in Drosophila. In this post I show the minimal R workflow I keep coming back to: simulate some data, fit a Bayesian linear model on the log-time, and plot the curve with credible intervals."
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#the-packages-i-use",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#the-packages-i-use",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "The packages I use",
+    "text": "The packages I use\n#| label: setup\nlibrary(tidyverse)   # dplyr, tidyr, ggplot2\nlibrary(brms)        # bayesian regression\nlibrary(tidybayes)   # tidy posteriors\nlibrary(ggdist)      # nice uncertainty geoms\ntheme_set(theme_minimal(base_size = 13))"
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#a-small-simulated-dataset",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#a-small-simulated-dataset",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "A small simulated dataset",
+    "text": "A small simulated dataset\nThe TDT model assumes survival time scales log-linearly with temperature:\n\\[\n\\log_{10}(t_{\\text{lethal}}) = \\alpha - z \\cdot T\n\\]\nwhere \\(z\\) (the thermal sensitivity) is the slope and \\(\\alpha\\) is the intercept. To make the post self-contained, let’s simulate ten flies measured at five temperatures.\n#| label: simulate\nset.seed(2026)\n\ntdt_sim &lt;- expand_grid(\n  temperature = c(36, 37, 38, 39, 40),\n  replicate   = 1:10\n) |&gt;\n  mutate(\n    log10_time = 4.6 - 0.18 * temperature + rnorm(n(), 0, 0.08),\n    time_min   = 10^log10_time\n  )\n\nhead(tdt_sim)"
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#fit-a-bayesian-linear-model",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#fit-a-bayesian-linear-model",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "Fit a Bayesian linear model",
+    "text": "Fit a Bayesian linear model\nbrms is a thin, expressive wrapper around Stan. For a TDT curve I almost always start with a simple Gaussian model on log10_time, with weakly informative priors on the intercept and slope.\n#| label: fit\nfit &lt;- brm(\n  log10_time ~ temperature,\n  data    = tdt_sim,\n  family  = gaussian(),\n  prior   = c(\n    prior(normal(4, 1),    class = \"Intercept\"),\n    prior(normal(-0.2, 0.1), class = \"b\"),\n    prior(exponential(5), class = \"sigma\")\n  ),\n  chains  = 4,\n  iter    = 2000,\n  cores   = 4,\n  refresh = 0\n)\n\nsummary(fit)"
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#pull-out-the-posterior-and-plot",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#pull-out-the-posterior-and-plot",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "Pull out the posterior and plot",
+    "text": "Pull out the posterior and plot\ntidybayes::add_epred_draws() gives you posterior predictions for any new grid of temperatures, in long format ready for ggplot2.\n#| label: plot\n#| fig-cap: \"TDT curve fitted with brms. The thick line is the posterior median; the band is the 95% credible interval.\"\nnew_temp &lt;- tibble(temperature = seq(35.5, 40.5, length.out = 100))\n\npost_pred &lt;- new_temp |&gt;\n  add_epred_draws(fit, ndraws = 500)\n\nggplot(post_pred, aes(x = temperature, y = .epred)) +\n  stat_lineribbon(.width = c(0.5, 0.8, 0.95),\n                  alpha = 0.5, fill = \"#5f7d63\") +\n  geom_point(\n    data = tdt_sim,\n    aes(y = log10_time),\n    inherit.aes = FALSE,\n    alpha = 0.6, colour = \"#3e5642\", size = 2\n  ) +\n  scale_fill_brewer(palette = \"Greens\", guide = \"none\") +\n  labs(\n    x = \"Temperature (°C)\",\n    y = expression(log[10]~lethal~time~(min)),\n    title = \"Thermal death time (TDT) curve\",\n    subtitle = \"Simulated *Drosophila* heat-tolerance data\"\n  )"
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#why-a-bayesian-model",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#why-a-bayesian-model",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "Why a Bayesian model?",
+    "text": "Why a Bayesian model?\nFor TDT curves specifically I find Bayesian fits useful for three reasons:\n\nHonest uncertainty in derived quantities. The thermal sensitivity \\(z\\), the Critical Thermal Maximum at one minute (CTmax₁), or the projected survival at 41 °C are all functions of the model parameters. With posterior draws, propagating that uncertainty to any derived quantity is just mutate().\nNatural multilevel extensions. Once you have replicates from different lines, populations, or species, you can extend the model to log10_time ~ temperature + (temperature | line) and the syntax barely changes.\nPriors as documentation. The priors above are weak but not flat — they encode what we already know from decades of TDT data. That alone makes the model easier to defend in review.\n\nIf you are new to brms, Solomon Kurz’s Statistical Rethinking with brms translation is an excellent companion. For a more macrophysiology-flavoured walkthrough, check the supplementary materials of Rezende et al. (2014) — the paper that introduced TDT to the ectotherm thermal-tolerance literature."
+  },
+  {
+    "objectID": "posts/2026-04-tdt-curves-brms/index.html#reproducibility",
+    "href": "posts/2026-04-tdt-curves-brms/index.html#reproducibility",
+    "title": "Fitting thermal death time (TDT) curves with brms",
+    "section": "Reproducibility",
+    "text": "Reproducibility\nThe code in this post is the entire post — there is no hidden setup. To rerun it:\ngit clone https://github.com/felixpleiva/felixpleiva.github.io\ncd felixpleiva.github.io/posts/2026-04-tdt-curves-brms\nquarto render\nIf the version of brms you have installed differs, the posterior summaries will move slightly but the visual story will be the same."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Preprints, software, and earlier work are listed on my Google Scholar profile.\n\n\n\n Leiva FP, Santos M, Rezende EL & Verberk WCEP (2024). Intraspecific variation of heat tolerance in a model ectotherm: the role of oxygen, cell size and body size. Functional Ecology, 38, 439–448.\n\nCode Data DOI\n\n\n\n Leiva FP, Boerrigter JGJ & Verberk WCEP (2023). The role of cell size in shaping responses to oxygen and temperature in fruit flies. Functional Ecology.\n\nCode Data DOI\n\n\n\n Babin CH, Leiva FP, Verberk WCEP & Rees BB (2023). Evolution of key oxygen-sensing genes is associated with hypoxia tolerance in fishes. Journal of Experimental Biology.\n\nCode Data DOI\n\n\n\n Verberk WCEP, Sandker JF, van de Pol ILE, Urbina MA, Wilson RW, McKenzie DJ & Leiva FP (2022). Body mass and cell size shape the tolerance of fishes to low oxygen in a temperature-dependent manner. Global Change Biology, 28, 5695–5707.\n\nCode Data DOI\n\n\n\n Verspagen N, Leiva FP, Janssen I & Verberk WCEP (2020). Effects of developmental plasticity on heat tolerance may be mediated by changes in cell size in Drosophila melanogaster. Insect Science.\n\nCode Data DOI\n\n\n\n Toledo P, Niklitschek EJ, Darnaude AM, Leiva FP et al. (2020). The trophic ecology of partial migration: insights from Merluccius australis off NW Patagonia. ICES Journal of Marine Science, 77, 1927–1940.\n\nCode Data DOI\n\n\n\n Sunday J, Bennett JM, Calosi P, Clusella-Trullas S, Gravel S, Leiva FP et al. (2019). Thermal tolerance patterns across latitude and elevation. Philosophical Transactions of the Royal Society B: Biological Sciences, 374, 20190036.\n\nCode Data DOI\n\n\n\n Leiva FP, Calosi P & Verberk WCEP (2019). Scaling of thermal tolerance with body mass and genome size in ectotherms: a comparison between water- and air-breathers. Philosophical Transactions of the Royal Society B: Biological Sciences, 374, 20190035.\n\nCode Data DOI\n\n\n\n Toledo P, Darnaude AM, Niklitschek EJ, Ojeda V, Voué R, Leiva FP et al. (2019). Partial migration and early size of southern hake Merluccius australis. ICES Journal of Marine Science, 76, 1094–1106.\n\nCode Data DOI\n\n\n\n Leiva FP, Garcés C, Verberk WCEP, Care M, Paschke K & Gebauer P (2018). Differences in the respiratory response to temperature and hypoxia across four life-stages of the intertidal porcelain crab Petrolisthes laevigatus. Marine Biology, 165, 146.\n\nCode Data DOI\n\n\n\n Leiva FP, Niklitschek EJ, Paschke K, Gebauer P & Urbina MA (2016). Tide-related biological rhythm in the oxygen consumption rate of ghost shrimp Neotrypaea uncinata. Journal of Experimental Biology, 219, 1957–1960.\n\nCode Data DOI\n\n\n\n Leiva FP, Urbina MA, Cumillaf JP, Gebauer P & Paschke K (2015). Physiological responses of the ghost shrimp Neotrypaea uncinata to oxygen availability and recovery after severe environmental hypoxia. Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology.\n\nCode Data DOI"
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Preprints, software, and earlier work are listed on my Google Scholar profile."
+  }
+]
