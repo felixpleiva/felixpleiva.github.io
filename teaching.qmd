@@ -1,0 +1,61 @@
+---
+title: "Teaching"
+pagetitle: "Teaching — Félix P. Leiva"
+description: "Courses, supervision, and workshops."
+toc: true
+toc-location: right
+---
+
+## Workshops
+
+::: {.teach-card}
+
+### {{< fa chalkboard-user >}} Reproducible analyses with R, Quarto and `renv`
+
+**Radboud Doctoral School · 2024 (1-day workshop, ~20 participants)**
+
+A hands-on workshop showing PhD students how to structure a research project so that any collaborator (or future-them) can rerun the entire analysis from raw data to figures with one command.
+
+**Topics covered**
+
+- Project layout: `data/raw`, `data/processed`, `R/`, `outputs/`, `manuscript/`
+- Pinning package versions with [`renv`](https://rstudio.github.io/renv/)
+- Numbered analysis scripts and the "no magic numbers" rule
+- Building manuscripts and supplementary materials with [Quarto](https://quarto.org)
+- Pushing to GitHub and archiving with Zenodo for a citable DOI
+
+**Materials** — [github.com/felixpleiva/Template_for_publications](https://github.com/felixpleiva/Template_for_publications)
+
+::: {.proj-buttons}
+[Slides](#){.proj-btn}
+[Repo](https://github.com/felixpleiva/Template_for_publications){.proj-btn}
+:::
+
+:::
+
+<!--
+Add a new workshop or course by copying the block above:
+
+::: {.teach-card}
+### {{< fa chalkboard-user >}} Title of the activity
+**Institution · Year (format, audience size)**
+
+Short description.
+
+**Topics covered**
+- ...
+- ...
+:::
+-->
+
+## Courses
+
+- **2024 – 2025** — Guest lecturer, *Animal Ecophysiology* (BSc), Radboud University.
+- **2014 – 2017** — Lecturer, *Marine Biology* and *Animal Physiology*, Universidad de los Lagos (Puerto Montt, Chile).
+
+## Supervision
+
+- **2025** — MSc thesis: *Cell size effects on heat tolerance in Drosophila*. Radboud University. (co-supervisor)
+- **2024** — BSc thesis: *Variation in oxygen tolerance across populations of fruit flies*. Radboud University.
+- **2016 – 2017** — Three BSc theses on crustacean physiology, Universidad de los Lagos.
+

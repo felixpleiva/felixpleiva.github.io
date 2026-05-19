@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+    - "posts/**/*.qmd"
+  resources:
+    - "files/"
+    - "CNAME"
+
+website:
+  title: "Félix P. Leiva"
+  description: "Macrophysiologist at Radboud University. Open science, statistics, and ectotherm physiology."
+  site-url: "https://felixpleiva.github.io"
+  repo-url: "https://github.com/felixpleiva/felixpleiva.github.io"
+  favicon: images/favicon.png
+  open-graph: true
+  twitter-card:
+    creator: "@felixpleiva"
+    card-style: summary_large_image
+
+  navbar:
+    pinned: true
+    title: "Félix P. Leiva"
+    left:
+      - href: index.qmd
+        text: About
+      - href: publications.qmd
+        text: Publications
+      - href: projects.qmd
+        text: Projects
+      - href: teaching.qmd
+        text: Teaching
+      - href: blog.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+
+  page-footer:
+    center: |
+      All content licensed under a [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).<br>Content &copy; 2026 Félix P. Leiva &nbsp;·&nbsp; Built with [R](https://www.r-project.org/) and [Quarto](https://quarto.org)
+
+format:
+  html:
+    theme:
+      light: [cosmo, assets/custom.scss]
+    toc: false
+    css: assets/styles.css
+    code-link: true
+    anchor-sections: true
+    fig-align: center
+    smooth-scroll: true
+    link-external-newwindow: true
+
+execute:
+  freeze: auto

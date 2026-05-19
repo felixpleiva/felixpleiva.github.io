@@ -1,0 +1,20 @@
+---
+title: "Blog"
+pagetitle: "Blog — Félix P. Leiva"
+description: "Notes on R, Bayesian models, macrophysiology, and reproducible workflows."
+listing:
+  contents: posts
+  type: default
+  sort: "date desc"
+  categories: true
+  feed: true
+  fields: [date, title, description, categories, image, reading-time]
+  sort-ui: false
+  filter-ui: true
+  image-align: right
+  image-height: "150px"
+toc: false
+page-layout: full
+---
+
+Notes on R, Bayesian thermal-tolerance models, and the occasional reproducibility rant. Most posts are written in Quarto from real R code that you can copy and adapt.

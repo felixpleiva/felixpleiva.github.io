@@ -1,0 +1,140 @@
+---
+title: "Publications"
+pagetitle: "Publications — Félix P. Leiva"
+toc: false
+page-layout: full
+---
+
+::: {.pubs-page}
+
+::: {.pubs-side}
+## Selected publications
+
+[Preprints, software, and earlier work are listed on my [Google Scholar](https://scholar.google.com/citations?user=Cgm7_bMAAAAJ) profile.]{.pubs-link}
+:::
+
+::: {.pubs-list}
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Santos M, Rezende EL & Verberk WCEP]{.pub-authors} (2024). [Intraspecific variation of heat tolerance in a model ectotherm: the role of oxygen, cell size and body size](https://doi.org/10.1111/1365-2435.14485). *Functional Ecology*, **38**, 439–448.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/TDT_DGRP_lines){.pub-btn}
+[Data](https://github.com/felixpleiva/TDT_DGRP_lines){.pub-btn}
+[DOI](https://doi.org/10.1111/1365-2435.14485){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Boerrigter JGJ & Verberk WCEP]{.pub-authors} (2023). [The role of cell size in shaping responses to oxygen and temperature in fruit flies](https://doi.org/10.1111/1365-2435.14294). *Functional Ecology*.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/Plastic_responses_DGRP_lines){.pub-btn}
+[Data](https://github.com/felixpleiva/Plastic_responses_DGRP_lines){.pub-btn}
+[DOI](https://doi.org/10.1111/1365-2435.14294){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Babin CH, **Leiva FP**, Verberk WCEP & Rees BB]{.pub-authors} (2023). Evolution of key oxygen-sensing genes is associated with hypoxia tolerance in fishes. *Journal of Experimental Biology*.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/Genetic_basis_Pcrit){.pub-btn}
+[Data](https://github.com/felixpleiva/Genetic_basis_Pcrit){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Verberk WCEP, Sandker JF, van de Pol ILE, Urbina MA, Wilson RW, McKenzie DJ & **Leiva FP**]{.pub-authors} (2022). [Body mass and cell size shape the tolerance of fishes to low oxygen in a temperature-dependent manner](https://doi.org/10.1111/gcb.16319). *Global Change Biology*, **28**, 5695–5707.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/Hypoxia_tolerance_fishes){.pub-btn}
+[Data](https://github.com/felixpleiva/Hypoxia_tolerance_fishes){.pub-btn}
+[DOI](https://doi.org/10.1111/gcb.16319){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Verspagen N, **Leiva FP**, Janssen I & Verberk WCEP]{.pub-authors} (2020). Effects of developmental plasticity on heat tolerance may be mediated by changes in cell size in *Drosophila melanogaster*. *Insect Science*.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Toledo P, Niklitschek EJ, Darnaude AM, **Leiva FP** et al.]{.pub-authors} (2020). The trophic ecology of partial migration: insights from *Merluccius australis* off NW Patagonia. *ICES Journal of Marine Science*, **77**, 1927–1940.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Sunday J, Bennett JM, Calosi P, Clusella-Trullas S, Gravel S, **Leiva FP** et al.]{.pub-authors} (2019). [Thermal tolerance patterns across latitude and elevation](https://doi.org/10.1098/rstb.2019.0036). *Philosophical Transactions of the Royal Society B: Biological Sciences*, **374**, 20190036.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+[DOI](https://doi.org/10.1098/rstb.2019.0036){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Calosi P & Verberk WCEP]{.pub-authors} (2019). [Scaling of thermal tolerance with body mass and genome size in ectotherms: a comparison between water- and air-breathers](https://doi.org/10.1098/rstb.2019.0035). *Philosophical Transactions of the Royal Society B: Biological Sciences*, **374**, 20190035.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+[DOI](https://doi.org/10.1098/rstb.2019.0035){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Toledo P, Darnaude AM, Niklitschek EJ, Ojeda V, Voué R, **Leiva FP** et al.]{.pub-authors} (2019). Partial migration and early size of southern hake *Merluccius australis*. *ICES Journal of Marine Science*, **76**, 1094–1106.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Garcés C, Verberk WCEP, Care M, Paschke K & Gebauer P]{.pub-authors} (2018). Differences in the respiratory response to temperature and hypoxia across four life-stages of the intertidal porcelain crab *Petrolisthes laevigatus*. *Marine Biology*, **165**, 146.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/respiration_life_stages_crabs){.pub-btn}
+[Data](https://github.com/felixpleiva/respiration_life_stages_crabs){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Niklitschek EJ, Paschke K, Gebauer P & Urbina MA]{.pub-authors} (2016). Tide-related biological rhythm in the oxygen consumption rate of ghost shrimp *Neotrypaea uncinata*. *Journal of Experimental Biology*, **219**, 1957–1960.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/Respiration_ghost_shrimp_tidal_cycles){.pub-btn}
+[Data](https://github.com/felixpleiva/Respiration_ghost_shrimp_tidal_cycles){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Urbina MA, Cumillaf JP, Gebauer P & Paschke K]{.pub-authors} (2015). Physiological responses of the ghost shrimp *Neotrypaea uncinata* to oxygen availability and recovery after severe environmental hypoxia. *Comparative Biochemistry and Physiology Part A: Molecular & Integrative Physiology*.
+
+::: {.pub-buttons}
+[Code](https://github.com/felixpleiva/Ghost_shrimp_respiration_reoxygentation){.pub-btn}
+[Data](https://github.com/felixpleiva/Ghost_shrimp_respiration_reoxygentation){.pub-btn}
+[DOI](#){.pub-btn}
+:::
+:::
+
+:::
+
+:::

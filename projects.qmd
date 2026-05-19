@@ -1,0 +1,75 @@
+---
+title: "Projects"
+pagetitle: "Projects — Félix P. Leiva"
+description: "Active research themes and open databases."
+toc: false
+---
+
+## {{< fa thermometer-half >}} Thermal tolerance and the limits of life
+
+A central thread in my work is **understanding what sets the upper thermal limits of ectotherms** and how those limits scale with body size, cell size, and genome size. By combining experiments on fishes, fruit flies, and crustaceans with comparative analyses across hundreds of species, I try to find the rules that link physiology to biogeography.
+
+I am currently particularly interested in the following questions:
+
+1. *How does heat tolerance scale with body mass, cell size, and genome size in water- versus air-breathers?*
+2. *To what extent is intraspecific variation in heat tolerance shaped by oxygen and cell size?*
+3. *Can thermal death time (TDT) curves predict tolerance to ecologically realistic heat events?*
+4. *How heritable is heat tolerance, and what is its potential to evolve under climate change?*
+
+::: {.proj-buttons}
+[Repo: TDT_DGRP_lines](https://github.com/felixpleiva/TDT_DGRP_lines){.proj-btn}
+[Repo: Genetic_variation_TDT](https://github.com/felixpleiva/Genetic_variation_TDT){.proj-btn}
+:::
+
+---
+
+## {{< fa wind >}} Oxygen, body size, and hypoxia tolerance
+
+Oxygen supply and demand are central to how animals cope with warming. Together with collaborators I work on **how body size and cell size shape the tolerance of fishes and invertebrates to low oxygen**, and how those relationships change with temperature.
+
+I am currently particularly interested in the following questions:
+
+1. *Why are large fishes more sensitive to hypoxia than small ones — and is this temperature-dependent?*
+2. *Which oxygen-sensing genes underlie variation in critical oxygen thresholds (Pcrit) across fishes?*
+3. *Do early life stages set the hypoxia bottleneck for whole-animal performance?*
+
+::: {.proj-buttons}
+[Repo: Hypoxia_tolerance_fishes](https://github.com/felixpleiva/Hypoxia_tolerance_fishes){.proj-btn}
+[Repo: Genetic_basis_Pcrit](https://github.com/felixpleiva/Genetic_basis_Pcrit){.proj-btn}
+:::
+
+---
+
+## {{< fa database >}} Open databases for macrophysiology
+
+Macrophysiology lives or dies on the quality of its underlying data. I lead two open, community-oriented databases that pull together physiological measurements at scales no single lab could achieve.
+
+I am currently particularly interested in the following questions:
+
+1. *How do metabolic rates of ectotherms shift along temperature, oxygen, and body-size gradients globally?*
+2. *Does erythrocyte size in fishes mirror body-size and oxygen-availability patterns?*
+3. *How can we make these databases reusable, versioned, and citeable for the next generation of researchers?*
+
+::: {.proj-buttons}
+[MetaR — metabolic rates](https://github.com/felixpleiva/MetaR){.proj-btn}
+[ErythroCite — RBC sizes](https://github.com/felixpleiva/ErythroCite){.proj-btn}
+[Organ-size DB](https://github.com/felixpleiva/organ_size_DB){.proj-btn}
+:::
+
+---
+
+## {{< fa code-branch >}} Reproducible workflows for physiology
+
+Every paper I lead ships with a public, reproducible repository — raw data, R code, and the figures that made it into the manuscript. I'm slowly building tools and templates around this practice so that the next student or collaborator can rerun an analysis end-to-end with one command.
+
+I am currently particularly interested in the following questions:
+
+1. *What is the minimum scaffold a physiology paper needs to be truly reproducible?*
+2. *Which Quarto + `renv` + `targets` patterns are robust enough to teach in a one-week workshop?*
+3. *How do we make data publication as low-friction as preprint posting?*
+
+::: {.proj-buttons}
+[Template_for_publications](https://github.com/felixpleiva/Template_for_publications){.proj-btn}
+[ordenaR](https://github.com/felixpleiva/ordenaR){.proj-btn}
+[All paper repos](https://github.com/felixpleiva){.proj-btn}
+:::

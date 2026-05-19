@@ -1,0 +1,648 @@
+/*-- scss:defaults --*/
+
+// Inspired by minimal academic sites (cynthiahqy.com, Quarto blog template)
+$font-family-sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: "Source Serif 4", "Source Serif Pro", "Charter", Georgia, serif;
+$font-family-monospace: "JetBrains Mono", "Fira Code", monospace;
+
+// Palette pulled from Félix's profile photo: sage-green sweater + deeper foliage tones
+$sage-50:  #f1f5f1;
+$sage-100: #e2ece4;
+$sage-200: #c8d8cb;
+$sage-300: #9eb7a3;
+$sage-400: #82a187;   // lighter accent
+$sage-500: #6d8d71;   // average sweater color
+$sage-550: #5f7d63;   // navbar (lighter than before)
+$sage-600: #506b54;   // accessible link color (>= AA on white)
+$sage-700: #3e5642;
+$sage-800: #2d3f31;
+
+$body-color: #1f2328;
+$body-bg: #ffffff;
+$link-color: $sage-600;
+$link-hover-color: $sage-800;
+$navbar-bg: $sage-550;        // lighter sage navbar
+$navbar-fg: #ffffff;
+$navbar-hl: #ffffff;
+
+$primary: $sage-600;
+$secondary: #6b7a72;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 600;
+$headings-color: #0d1116;
+
+$code-color: $sage-700;
+$code-bg: #f4f7f4;
+
+/*-- scss:rules --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+body {
+  font-family: $font-family-sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ----- Navbar (tall, large type, sage background) -----
+.navbar {
+  min-height: 70px;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+  background: $sage-550 !important;
+  font-weight: 500;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  border: none;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #ffffff !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 1.2rem;
+  padding: 0.5rem 1.1rem !important;
+  color: rgba(255,255,255,0.88) !important;
+  transition: color 0.15s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #ffffff !important;
+  font-weight: 600;
+  text-shadow: 0 0 1px rgba(255,255,255,0.4);
+}
+
+.navbar .quarto-navbar-tools .nav-link {
+  font-size: 1.15rem;
+  padding: 0.5rem 0.65rem !important;
+  color: rgba(255,255,255,0.88) !important;
+}
+
+.navbar .quarto-navbar-tools .nav-link:hover { color: #ffffff !important; }
+
+// search icon and aria buttons
+.navbar .aa-DetachedSearchButton,
+.navbar button.navbar-toggler { color: #ffffff !important; border-color: rgba(255,255,255,0.3); }
+
+// Footer centered
+.nav-footer {
+  text-align: center;
+}
+.nav-footer .nav-footer-center { width: 100%; }
+.nav-footer .nav-footer-left, .nav-footer .nav-footer-right { display: none; }
+
+p, li {
+  font-family: $font-family-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+main p, main li { font-family: $font-family-sans-serif; }
+main p { font-size: 1.02rem; line-height: 1.7; }
+
+h1, h2, h3, h4 {
+  letter-spacing: -0.01em;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.55rem; margin-top: 2rem; }
+h3 { font-size: 1.2rem; margin-top: 1.5rem; }
+
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+
+
+// ----- Hero card  -----
+.hero-card {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin: 1.25rem 0 0.4rem 0;
+}
+
+.hero-left { text-align: center; }
+
+.hero-left img.profile-photo {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.10);
+  margin: 0 auto 1.5rem auto;
+  display: block;
+}
+
+.hero-name h1 {
+  font-size: 2.1rem;
+  margin: 0;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.hero-title {
+  color: $secondary;
+  font-size: 1.05rem;
+  margin-top: 0.35rem;
+  font-family: $font-family-sans-serif;
+}
+
+.hero-affil {
+  margin-top: 0.25rem;
+  font-size: 1.05rem;
+  font-family: $font-family-sans-serif;
+}
+.hero-affil a {
+  color: $primary;
+  font-weight: 500;
+}
+
+.hero-right > h1,
+.hero-right > h2 {
+  margin-top: 0;
+  font-size: 2.4rem;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  border: none;
+  padding-bottom: 0;
+}
+
+.hero-right p {
+  font-family: $font-family-sans-serif;
+  font-size: 1.18rem;
+  line-height: 1.75;
+  color: #2d3338;
+}
+
+.hero-right > h1,
+.hero-right > h2 {
+  font-size: 2.6rem;
+}
+
+// ----- Social icons: solo icono verde grande, sin círculo -----
+.social-icons {
+  margin-top: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.social-icons a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  
+  // sin fondo y sin círculo
+  width: 32px;
+  height: 32px;
+  
+  background: transparent;
+  border-radius: 0;
+  color: $sage-600 !important;   // iconos verdes, que combinen con el color de mi poleron
+  text-decoration: none;
+  line-height: 1;
+}
+
+.social-icons a:hover {
+  color: $sage-800 !important;   // un poco más oscuro al pasar el mouse
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+// normalizar tamaño interno
+.social-icons a svg,
+.social-icons a .iconify,
+.social-icons a iconify-icon {
+  width: 22px;
+  height: 22px;
+  display: block;
+  color: inherit;
+}
+
+@media (max-width: 820px) {
+  .hero-card {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+  .hero-right > h1, .hero-right > h2 { text-align: left; }
+  .hero-right p { text-align: left; }
+  .hero-left img.profile-photo { width: 220px; height: 220px; }
+}
+
+// ----- Two-column block (Interests / Education) -----
+// Aligned under the Biography column, not the full width
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.4rem;
+  margin: -4rem 0 1.1rem calc(320px + 2.5rem);
+}
+
+@media (max-width: 820px) {
+  .two-col { margin-left: 0 !important; }
+}
+
+.two-col .col h2 {
+  font-size: 1.85rem;
+  font-weight: 600;
+  border: none;
+  margin-bottom: 1.1rem;
+  padding-bottom: 0;
+}
+
+.two-col ul { padding-left: 1.2rem; }
+.two-col ul li {
+  margin-bottom: 0.55rem;
+  font-family: $font-family-sans-serif;
+  font-size: 1.15rem;
+  line-height: 1.6;
+}
+
+.two-col .timeline li {
+  font-size: 1.15rem;
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+.timeline ul { list-style: none; padding-left: 0; }
+.timeline li,
+.two-col .timeline li {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0.85rem;
+}
+
+@media (max-width: 820px) {
+  .two-col { grid-template-columns: 1fr; gap: 2rem; }
+}
+
+// ----- News list -----
+.news-list ul { list-style: none; padding-left: 0; }
+.news-list li {
+  list-style: none;
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  border-left: 3px solid $sage-300;
+  padding: 0.4rem 0 0.4rem 1rem;
+  margin-bottom: 0.5rem;
+  background: linear-gradient(90deg, $sage-50 0%, transparent 70%);
+}
+
+// Social pill row
+.social-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1rem 0 1.5rem 0;
+  font-family: $font-family-sans-serif;
+}
+
+.social-row a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.85rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: $body-color;
+  transition: all 0.15s ease;
+}
+
+.social-row a:hover {
+  background: $sage-50;
+  border-color: $primary;
+  color: $primary;
+  text-decoration: none;
+}
+
+// Publication / talk cards
+.pub-list, .talk-list, .project-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pub-list > li, .talk-list > li, .project-list > li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #edf0f4;
+  font-family: $font-family-serif;
+}
+
+.pub-list .year, .talk-list .year {
+  display: inline-block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
+  color: $sage-700;
+  background: $sage-100;
+  padding: 0.15rem 0.55rem;
+  border-radius: 4px;
+  margin-right: 0.6rem;
+  font-weight: 500;
+}
+
+.pub-list .venue { color: $secondary; font-style: italic; }
+
+// Section heading divider
+section > h2:first-child, .section-divider {
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+// Tag chip
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-family: $font-family-sans-serif;
+  background: $sage-100;
+  color: $sage-700;
+  padding: 0.1rem 0.5rem;
+  border-radius: 4px;
+  margin-right: 0.3rem;
+}
+
+// Listing (blog)
+.quarto-listing-default .listing-item-img-placeholder {
+  background: linear-gradient(135deg, $sage-100 0%, $sage-50 100%);
+}
+
+.quarto-listing .listing-item-tags .listing-category {
+  background: $sage-100;
+  color: $sage-700;
+  border: none;
+}
+
+// Footer
+.nav-footer {
+  font-size: 0.9rem;
+  color: $secondary;
+  border-top: 1px solid #e5e7eb;
+}
+
+// ===== Publications =====
+.pubs-page {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-top: 1rem;
+}
+
+.pubs-side {
+  position: sticky;
+  top: 100px;
+}
+
+.pubs-side h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-top: 0;
+  border: none;
+  padding-bottom: 0;
+}
+
+.pubs-side .pubs-link {
+  display: block;
+  font-family: $font-family-sans-serif;
+  font-size: 0.95rem;
+  margin-top: 0.6rem;
+  color: $secondary;
+}
+
+.pubs-stats {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  background: $sage-50;
+  border-left: 3px solid $sage-500;
+  font-family: $font-family-sans-serif;
+  font-size: 0.95rem;
+  border-radius: 0 4px 4px 0;
+  line-height: 1.6;
+}
+
+.pubs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.pub {
+  padding: 1.1rem 0 1.1rem 0;
+  border-bottom: 1px solid #edf0f4;
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.pub > p:first-child {
+  margin: 0 0 0.55rem 0;
+  font-family: $font-family-sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.pub :is(.fa, .fas, .fa-solid, svg.svg-inline--fa) {
+  color: $sage-500;
+  margin-right: 0.5rem;
+}
+
+.pub-authors {
+  color: #4a5560;
+}
+
+.pub-authors strong,
+.pub-authors b { color: $sage-700; }
+
+.pub a { color: $sage-700; }
+.pub a:hover { color: $sage-800; }
+
+.pub-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.55rem;
+}
+
+.pub-btn,
+.proj-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.22rem 0.7rem;
+  border: 1px solid $sage-300;
+  border-radius: 4px;
+  font-family: $font-family-sans-serif;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: $sage-700 !important;
+  background: #fff;
+  text-decoration: none !important;
+  transition: all 0.15s ease;
+  line-height: 1.4;
+}
+
+.pub-btn:hover,
+.proj-btn:hover {
+  background: $sage-50;
+  border-color: $sage-500;
+  color: $sage-800 !important;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 900px) {
+  .pubs-page { grid-template-columns: 1fr; gap: 1.5rem; }
+  .pubs-side { position: static; }
+}
+
+// ===== CV page (PDF embed with toolbar) =====
+.pdf-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0 0.6rem 0;
+  padding: 0.6rem 0.8rem;
+  background: #2d3f31;
+  border-radius: 8px 8px 0 0;
+}
+
+.pdf-tool-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 0.85rem;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 6px;
+  font-family: $font-family-sans-serif;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #fff !important;
+  background: rgba(255,255,255,0.06);
+  text-decoration: none !important;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.pdf-tool-btn:hover {
+  background: $sage-500;
+  border-color: $sage-400;
+  color: #fff !important;
+}
+
+.pdf-tool-btn i { font-size: 0.85rem; }
+
+.pdf-frame {
+  width: 100%;
+  height: 850px;
+  border: 1px solid #d9dee3;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  background: #f6f7f9;
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .pdf-frame { height: 600px; }
+}
+
+// ===== Projects page (topic cards with sage-tinted headers) =====
+#quarto-document-content main h2,
+main.content h2 { /* fallback */ }
+
+.quarto-title-block + h2,
+main h2 {
+  // applied only on projects.qmd via the icon presence; styling is generic enough
+}
+
+// Style H2s on Projects page: sage left bar + tint background + icon coloring
+// Achieved by giving them a distinguishable look that also looks fine elsewhere
+.projects-h2,
+h2:has(> .fa-solid),
+h2:has(> .fa) {
+  background: $sage-50;
+  border-left: 4px solid $sage-500;
+  padding: 0.6rem 0.9rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 1.5rem;
+  margin-top: 2.5rem;
+}
+
+h2 :is(.fa, .fas, .fa-solid, svg.svg-inline--fa) {
+  color: $sage-600;
+  margin-right: 0.55rem;
+}
+
+.proj-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.8rem 0 1.5rem 0;
+}
+
+// ===== Teaching page (cards) =====
+.teach-card {
+  background: #fff;
+  border: 1px solid #e7ebef;
+  border-left: 4px solid $sage-500;
+  border-radius: 0 8px 8px 0;
+  padding: 1.2rem 1.4rem 1.1rem 1.4rem;
+  margin: 1rem 0 1.5rem 0;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+
+.teach-card h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+  color: $sage-800;
+}
+
+.teach-card h3 :is(.fa, .fas, .fa-solid, svg.svg-inline--fa) {
+  color: $sage-600;
+  margin-right: 0.5rem;
+}
+
+.teach-card p,
+.teach-card li { font-size: 1rem; line-height: 1.65; }
+
+// ===== Blog listing tweaks =====
+.quarto-listing-default .listing-item {
+  border-bottom: 1px solid #edf0f4;
+  padding: 1.2rem 0;
+}
+
+.quarto-listing-default .listing-item .listing-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.quarto-listing-default .listing-item .listing-description {
+  font-family: $font-family-sans-serif;
+  font-size: 0.98rem;
+  color: #43505b;
+}
+
+// Callouts -- tint with the sage palette
+.callout.callout-style-default.callout-note,
+div.callout-note {
+  border-left-color: $sage-600 !important;
+  .callout-icon::before { background-color: $sage-600 !important; }
+  .callout-header { background-color: $sage-50 !important; }
+}
+
+.callout.callout-style-default.callout-tip,
+div.callout-tip {
+  border-left-color: $sage-500 !important;
+  .callout-icon::before { background-color: $sage-500 !important; }
+  .callout-header { background-color: $sage-50 !important; }
+}

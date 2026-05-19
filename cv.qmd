@@ -1,0 +1,33 @@
+---
+title: "CV"
+pagetitle: "CV — Félix P. Leiva"
+description: "Curriculum Vitae — Félix P. Leiva."
+toc: false
+page-layout: full
+---
+
+Updated in May 2026
+
+```{=html}
+<div class="pdf-toolbar">
+  <button type="button" class="pdf-tool-btn" id="pdf-fullscreen-btn">
+    <i class="fa-solid fa-expand"></i> Full Screen
+  </button>
+  <a class="pdf-tool-btn" href="files/cv.pdf" target="_blank" rel="noopener">
+    <i class="fa-solid fa-arrow-up-right-from-square"></i> Open in New Tab
+  </a>
+  <a class="pdf-tool-btn" href="files/cv.pdf" download>
+    <i class="fa-solid fa-download"></i> Download
+  </a>
+</div>
+
+<iframe id="cv-frame" src="files/cv.pdf" class="pdf-frame" title="CV — Félix P. Leiva"></iframe>
+
+<script>
+document.getElementById('pdf-fullscreen-btn').addEventListener('click', function() {
+  var f = document.getElementById('cv-frame');
+  if (f.requestFullscreen) f.requestFullscreen();
+  else if (f.webkitRequestFullscreen) f.webkitRequestFullscreen();
+});
+</script>
+```

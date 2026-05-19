@@ -1,0 +1,139 @@
+---
+title: "Fitting thermal death time (TDT) curves with `brms`"
+description: "A worked example of how I fit and visualise TDT curves in R using brms — from raw survival times to a clean ggplot2 figure with credible intervals."
+author: "Félix P. Leiva"
+date: "2026-04-12"
+categories: [R, brms, ggplot2, thermal-tolerance, bayesian]
+image: thumbnail.png
+image-alt: "Thermal death time curve fitted with brms"
+format:
+  html:
+    code-fold: false
+    code-tools: true
+    code-link: true
+    code-block-bg: true
+    code-block-border-left: "#5f7d63"
+    fig-width: 7
+    fig-height: 4.5
+    fig-align: center
+engine: markdown
+execute:
+  eval: false   # the R code is shown verbatim; rendering does not require knitr
+  warning: false
+  message: false
+---
+
+Thermal death time (TDT) curves describe how survival time at a stressful temperature decreases as temperature rises. They underpin a lot of recent work on heat tolerance — including [our 2024 *Functional Ecology* paper](https://doi.org/10.1111/1365-2435.14485) on intraspecific variation of heat tolerance in *Drosophila*. In this post I show the minimal R workflow I keep coming back to: simulate some data, fit a Bayesian linear model on the log-time, and plot the curve with credible intervals.
+
+## The packages I use
+
+```{r}
+#| label: setup
+library(tidyverse)   # dplyr, tidyr, ggplot2
+library(brms)        # bayesian regression
+library(tidybayes)   # tidy posteriors
+library(ggdist)      # nice uncertainty geoms
+theme_set(theme_minimal(base_size = 13))
+```
+
+## A small simulated dataset
+
+The TDT model assumes survival time scales log-linearly with temperature:
+
+$$
+\log_{10}(t_{\text{lethal}}) = \alpha - z \cdot T
+$$
+
+where $z$ (the *thermal sensitivity*) is the slope and $\alpha$ is the intercept. To make the post self-contained, let's simulate ten flies measured at five temperatures.
+
+```{r}
+#| label: simulate
+set.seed(2026)
+
+tdt_sim <- expand_grid(
+  temperature = c(36, 37, 38, 39, 40),
+  replicate   = 1:10
+) |>
+  mutate(
+    log10_time = 4.6 - 0.18 * temperature + rnorm(n(), 0, 0.08),
+    time_min   = 10^log10_time
+  )
+
+head(tdt_sim)
+```
+
+## Fit a Bayesian linear model
+
+`brms` is a thin, expressive wrapper around Stan. For a TDT curve I almost always start with a simple Gaussian model on `log10_time`, with weakly informative priors on the intercept and slope.
+
+```{r}
+#| label: fit
+fit <- brm(
+  log10_time ~ temperature,
+  data    = tdt_sim,
+  family  = gaussian(),
+  prior   = c(
+    prior(normal(4, 1),    class = "Intercept"),
+    prior(normal(-0.2, 0.1), class = "b"),
+    prior(exponential(5), class = "sigma")
+  ),
+  chains  = 4,
+  iter    = 2000,
+  cores   = 4,
+  refresh = 0
+)
+
+summary(fit)
+```
+
+## Pull out the posterior and plot
+
+`tidybayes::add_epred_draws()` gives you posterior predictions for any new grid of temperatures, in long format ready for `ggplot2`.
+
+```{r}
+#| label: plot
+#| fig-cap: "TDT curve fitted with brms. The thick line is the posterior median; the band is the 95% credible interval."
+new_temp <- tibble(temperature = seq(35.5, 40.5, length.out = 100))
+
+post_pred <- new_temp |>
+  add_epred_draws(fit, ndraws = 500)
+
+ggplot(post_pred, aes(x = temperature, y = .epred)) +
+  stat_lineribbon(.width = c(0.5, 0.8, 0.95),
+                  alpha = 0.5, fill = "#5f7d63") +
+  geom_point(
+    data = tdt_sim,
+    aes(y = log10_time),
+    inherit.aes = FALSE,
+    alpha = 0.6, colour = "#3e5642", size = 2
+  ) +
+  scale_fill_brewer(palette = "Greens", guide = "none") +
+  labs(
+    x = "Temperature (°C)",
+    y = expression(log[10]~lethal~time~(min)),
+    title = "Thermal death time (TDT) curve",
+    subtitle = "Simulated *Drosophila* heat-tolerance data"
+  )
+```
+
+## Why a Bayesian model?
+
+For TDT curves specifically I find Bayesian fits useful for three reasons:
+
+1. **Honest uncertainty in derived quantities.** The thermal sensitivity $z$, the Critical Thermal Maximum at one minute (CTmax₁), or the projected survival at 41 °C are all functions of the model parameters. With posterior draws, propagating that uncertainty to any derived quantity is just `mutate()`.
+2. **Natural multilevel extensions.** Once you have replicates from different lines, populations, or species, you can extend the model to `log10_time ~ temperature + (temperature | line)` and the syntax barely changes.
+3. **Priors as documentation.** The priors above are weak but not flat — they encode what we already know from decades of TDT data. That alone makes the model easier to defend in review.
+
+If you are new to `brms`, Solomon Kurz's [*Statistical Rethinking with brms* translation](https://bookdown.org/content/4857/) is an excellent companion. For a more macrophysiology-flavoured walkthrough, check the supplementary materials of [Rezende et al. (2014)](https://doi.org/10.1111/1365-2435.12268) — the paper that introduced TDT to the ectotherm thermal-tolerance literature.
+
+## Reproducibility
+
+The code in this post is the entire post — there is no hidden setup. To rerun it:
+
+```bash
+git clone https://github.com/felixpleiva/felixpleiva.github.io
+cd felixpleiva.github.io/posts/2026-04-tdt-curves-brms
+quarto render
+```
+
+If the version of `brms` you have installed differs, the posterior summaries will move slightly but the visual story will be the same.

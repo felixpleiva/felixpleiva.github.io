@@ -1,0 +1,74 @@
+---
+pagetitle: "Félix P. Leiva — Macrophysiologist"
+description-meta: "Personal website of Félix P. Leiva, postdoctoral researcher in macrophysiology at Radboud University."
+toc: false
+page-layout: full
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+          /* Hide the default Quarto title block on the home page */
+          #title-block-header { display: none; }
+        </style>
+---
+
+::: {.hero-card}
+
+::: {.hero-left}
+![](images/profile.jpg){.profile-photo fig-alt="Photo of Félix P. Leiva"}
+
+::: {.hero-name}
+# Félix P. Leiva
+:::
+
+::: {.hero-title}
+Postdoctoral Researcher
+:::
+
+::: {.hero-affil}
+[Radboud University](https://www.ru.nl/personen/leiva-leiva-f)
+:::
+
+::: {.social-icons}
+[{{< fa envelope size=lg >}}](mailto:felixpleiva@gmail.com "Email")
+[{{< iconify simple-icons googlescholar size=Large >}}](https://scholar.google.com/citations?user=Cgm7_bMAAAAJ "Google Scholar")
+[{{< iconify simple-icons orcid size=Large >}}](https://orcid.org/0000-0003-0249-9274 "ORCID")
+[{{< fa brands github size=lg >}}](https://github.com/felixpleiva "GitHub")
+[{{< iconify simple-icons bluesky size=Large >}}](https://bsky.app/profile/felixpleiva.bsky.social "Bluesky")
+:::
+
+:::
+
+::: {.hero-right}
+# Biography
+
+I am from Chile 🇨🇱, where I grew up as an artisanal fisherman, catching Southern hake and other delicious fish. I started working as fisherman when at the age of 12, spending my summer and winter school holidays at sea. Even now, those early days still bring a lump to my throat — a source of great pride and good memories.
+
+My research primarily focuses on **macrophysiology**, complemented by elements of experimental **ecophysiology**, though this plays a smaller role in my work nowadays. These approaches enable me to uncover how animals thrive and adapt to ever-changing environmental conditions, across space and time.
+:::
+
+:::
+
+::: {.two-col}
+
+::: {.col}
+## Interests
+
+{{< fa line-chart >}} Macrophysiology  
+{{< fa expand-arrows-alt >}} Scaling of traits  
+{{< fa project-diagram >}} Reproducible scientific workflows  
+:::
+
+::: {.col}
+## Education
+
+::: {.timeline}
+- {{< fa graduation-cap >}} **PhD in Science**, 2022 <br> *Radboud University, the Netherlands*
+- {{< fa graduation-cap >}} **Aquaculture Engineer**, 2011 <br> *Universidad Austral de Chile, Chile*
+- {{< fa graduation-cap >}} **Bachelor in Science and Technology**, 2007 <br> *Universidad Austral de Chile, Chile*
+:::
+:::
+
+:::
+
