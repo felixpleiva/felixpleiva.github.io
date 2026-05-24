@@ -16,6 +16,53 @@ page-layout: full
 ::: {.pubs-list}
 
 ::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Molina-Venegas R, Alter K, Freire CA, Hendriks AJ, Hermaniuk A, Serre-Fredj L,
+Shokri M, Czarnoleski M & Mark FC]{.pub-authors} (2026). [ErythroCite: a database on red blood cell size of
+fishes](https://doi.org/10.1038/s41597-026-06904-1). *Scientific Data*, **13**.
+
+::: {.pub-buttons}
+[Code](https://felixpleiva.github.io/ErythroCite/){.pub-btn}
+[Data](https://doi.org/10.5281/zenodo.18543381){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [Verberk WCEP, Henry E, **Leiva FP**, Barbarossa V & Schipper A]{.pub-authors} (2026). [Heat tolerance and its plasticity in freshwater and marine fishes reflect exposure to extremes and seasonal variation
+in habitat temperatures. Heat tolerance and its plasticity in freshwater and marine fishes
+reflect exposure to extremes and seasonal variation in habitat temperatures]( https://doi.org/10.1111/ele.70341). *Ecology Letters*, **29**,e70341.
+
+::: {.pub-buttons}
+[Code](https://doi.org/10.5281/zenodo.18266037){.pub-btn}
+[Data](https://doi.org/10.5281/zenodo.18266037){.pub-btn}
+:::
+:::
+
+
+::: {.pub}
+{{< fa file-lines >}} [Kempf S, Neven CJ, Timpe A, **Leiva FP**, Seibel B & Mark FC]{.pub-authors} (2025). [The physiological response of the Arctic key species Polar cod, *Boreogadus saida*, to hypoxia in a warming ocean: critical
+oxygen levels and swimming performance](https://doi.org/10.1186/s40850-025-00241-3). *BMC Zoology*, **10**,1–12.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](https://doi.org/10.1594/PANGAEA.962684){.pub-btn}
+:::
+:::
+
+::: {.pub}
+{{< fa file-lines >}} [**Leiva FP**, Ellers J, Berg MP, Cuxart-Erruz R, Barneche D, Blackburn T, Castañeda LE, Chown
+S, Gaitán-Espitia JD, Gebauer P, Gomez Isaza D, Hardy I, Hermaniuk A, Hirst A, Jorissen S,
+Keasar T, Koene JM, Le Lann C, Martorelli I, Molinet C, Niklitschek EJ, Oliveira B, Olivier B,
+Orizaola G, Pilakouta N, Shameer KS, Shokri M, Stoks R, Tougeron K, Tuni C, van de Pol ILE, van
+Dis NE, Visser B, Vogels J, White CR, Wu N & Verberk WCEP]{.pub-authors} (2025). [ShareTrait: towards
+interoperable and reusable individual trait-based data in ectotherms](https://doi.org/10.1111/1365-2435.70147). *Functional Ecology*, **39**, 3124–3138.
+
+::: {.pub-buttons}
+[Code](https://github.com/ShareTraitProject/ShareTrait){.pub-btn}
+[Data](https://doi.org/10.5281/zenodo.14826294){.pub-btn}
+:::
+:::
+
+::: {.pub}
 {{< fa file-lines >}} [**Leiva FP**, Santos M, Rezende EL & Verberk WCEP]{.pub-authors} (2024). [Intraspecific variation of heat tolerance in a model ectotherm: the role of oxygen, cell size and body size](https://doi.org/10.1111/1365-2435.14485). *Functional Ecology*, **38**, 439–448.
 
 ::: {.pub-buttons}
