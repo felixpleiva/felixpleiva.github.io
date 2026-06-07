@@ -6,14 +6,12 @@ page-layout: full
 format:
   html:
     include-in-header:
-        </style>
       text: |
         <style>
-          /* Hide the default Quarto title block on the home page */
-          #title-block-header { display: none; }
-editor: 
-  markdown: 
-    wrap: 72
+          /* Hide the default Quarto title */
+          .quarto-title > h1.title { display: none; }
+          /* el resto de tus estilos aquí */
+        </style>
 ---
 
 ::::::::: hero-card
