@@ -17,13 +17,11 @@ page-layout: full
 
 ## 2026
 ::: {.pub}
-{{< fa file-lines >}} [**Leiva FP**, Molina-Venegas R, Alter K, Freire CA, Hendriks AJ, Hermaniuk A, Serre-Fredj L,
-Shokri M, Czarnoleski M & Mark FC]{.pub-authors} (2026). [ErythroCite: a database on red blood cell size of
-fishes](https://doi.org/10.1038/s41597-026-06904-1). *Scientific Data*, **13**.
+{{< fa file-lines >}} [Shokri M, Potapov A, De Leo F, **Leiva FP**, Uvarov LV, Basset A]{.pub-authors} (2026). [Metabolic responses to climate change in invertebrates](#). *Nature Communications*, **Accepted**.
 
 ::: {.pub-buttons}
-[Code](https://felixpleiva.github.io/ErythroCite/){.pub-btn}
-[Data](https://doi.org/10.5281/zenodo.18543381){.pub-btn}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
 :::
 :::
 
