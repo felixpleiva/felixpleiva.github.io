@@ -10,7 +10,7 @@ project:
 
 website:
   title: "Félix P. Leiva"
-  description: "Macrophysiologist at Radboud University. Open science, statistics, and ectotherm physiology."
+  description: "Macrophysiology and other things"
   site-url: "https://felixpleiva.github.io"
   repo-url: "https://github.com/felixpleiva/felixpleiva.github.io"
   favicon: images/favicon.png
