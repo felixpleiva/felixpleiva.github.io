@@ -106,23 +106,7 @@ ggplot(post_pred, aes(x = temperature, y = .epred)) +
 <li><strong>Priors as documentation.</strong> The priors above are weak but not flat — they encode what we already know from decades of TDT data. That alone makes the model easier to defend in review.</li>
 </ol>
 <p>If you are new to <code>brms</code>, Solomon Kurz’s <a href="https://bookdown.org/content/4857/"><em>Statistical Rethinking with brms</em> translation</a> is an excellent companion. For a more macrophysiology-flavoured walkthrough, check the supplementary materials of <a href="https://doi.org/10.1111/1365-2435.12268">Rezende et al.&nbsp;(2014)</a> — the paper that introduced TDT to the ectotherm thermal-tolerance literature.</p>
-</section>
-<section id="reproducibility" class="level2">
-<h2 class="anchored" data-anchor-id="reproducibility">Reproducibility</h2>
-<p>The code in this post is the entire post — there is no hidden setup. To rerun it:</p>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><span class="fu" style="color: #4758AB;
-background-color: null;
-font-style: inherit;">git</span> clone https://github.com/felixpleiva/felixpleiva.github.io</span>
-<span id="cb5-2"><span class="bu" style="color: null;
-background-color: null;
-font-style: inherit;">cd</span> felixpleiva.github.io/posts/2026-04-tdt-curves-brms</span>
-<span id="cb5-3"><span class="ex" style="color: null;
-background-color: null;
-font-style: inherit;">quarto</span> render</span></code></pre></div></div>
-<p>If the version of <code>brms</code> you have installed differs, the posterior summaries will move slightly but the visual story will be the same.</p>
 
-
-<!-- -->
 
 </section>
 

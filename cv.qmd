@@ -6,7 +6,7 @@ toc: false
 page-layout: full
 ---
 
-Updated in May 2026
+Updated in August 2026
 
 ```{=html}
 <div class="pdf-toolbar">

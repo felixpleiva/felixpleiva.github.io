@@ -9,7 +9,7 @@ image-alt: "Thermal death time curve fitted with brms"
 format:
   html:
     code-fold: false
-    code-tools: true
+    code-tools: false
     code-link: true
     code-block-bg: true
     code-block-border-left: "#5f7d63"
@@ -125,15 +125,3 @@ For TDT curves specifically I find Bayesian fits useful for three reasons:
 3. **Priors as documentation.** The priors above are weak but not flat — they encode what we already know from decades of TDT data. That alone makes the model easier to defend in review.
 
 If you are new to `brms`, Solomon Kurz's [*Statistical Rethinking with brms* translation](https://bookdown.org/content/4857/) is an excellent companion. For a more macrophysiology-flavoured walkthrough, check the supplementary materials of [Rezende et al. (2014)](https://doi.org/10.1111/1365-2435.12268) — the paper that introduced TDT to the ectotherm thermal-tolerance literature.
-
-## Reproducibility
-
-The code in this post is the entire post — there is no hidden setup. To rerun it:
-
-```bash
-git clone https://github.com/felixpleiva/felixpleiva.github.io
-cd felixpleiva.github.io/posts/2026-04-tdt-curves-brms
-quarto render
-```
-
-If the version of `brms` you have installed differs, the posterior summaries will move slightly but the visual story will be the same.
