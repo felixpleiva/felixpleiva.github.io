@@ -26,13 +26,11 @@ page-layout: full
 :::
 
 ::: {.pub}
-{{< fa file-lines >}} [**Leiva FP**, Molina-Venegas R, Alter K, Freire CA, Hendriks AJ, Hermaniuk A, Serre-Fredj L,
-Shokri M, Czarnoleski M & Mark FC]{.pub-authors} (2026). [ErythroCite: a database on red blood cell size of
-fishes](https://doi.org/10.1038/s41597-026-06904-1). *Scientific Data*, **13**.
+{{< fa file-lines >}} [Pennington CR, Norris E, Skubera M, Ba Y, Moffat R, Amaral OB, ..., **Leiva FP**, … Clark K]{.pub-authors} (2026). [Awareness and use of open research practices: An international survey of researchers across disciplines. Royal Society Open Science](#). *Royal Society Open Science*. **Accepted**.
 
 ::: {.pub-buttons}
-[Code](https://felixpleiva.github.io/ErythroCite/){.pub-btn}
-[Data](https://doi.org/10.5281/zenodo.18543381){.pub-btn}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
 :::
 :::
 
