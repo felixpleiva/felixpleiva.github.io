@@ -1,0 +1,23 @@
+{
+  "blog.qmd": {
+    "blog.html": "2110a8e7"
+  },
+  "cv.qmd": {
+    "cv.html": "0d43719e"
+  },
+  "index.qmd": {
+    "index.html": "8ba97583"
+  },
+  "posts/2026-04-tdt-curves-brms/index.qmd": {
+    "index.html": "da0dff3e"
+  },
+  "projects.qmd": {
+    "projects.html": "883578cf"
+  },
+  "publications.qmd": {
+    "publications.html": "b5773de7"
+  },
+  "teaching.qmd": {
+    "teaching.html": "d837294e"
+  }
+}
