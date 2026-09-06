@@ -12,9 +12,9 @@ toc-location: right
 
 ### {{< fa chalkboard-user >}} Reproducible analyses with R, Quarto and `renv`
 
-**Radboud Doctoral School · 2024 (1-day workshop, ~20 participants)**
+**XXXXX · year (1-day workshop, ~XX participants)**
 
-A hands-on workshop showing PhD students how to structure a research project so that any collaborator (or future-them) can rerun the entire analysis from raw data to figures with one command.
+A hands-on workshop showing ECR how to structure a research project so that any collaborator (or future-them) can rerun the entire analysis from raw data to figures with one command.
 
 **Topics covered**
 
@@ -50,12 +50,12 @@ Short description.
 
 ## Courses
 
-- **2024 – 2025** — Guest lecturer, *Animal Ecophysiology* (BSc), Radboud University.
+- **2024 – 2025** — Guest lecturer, *Animal Ecophysiology* (BSc), XXXXX.
 - **2014 – 2017** — Lecturer, *Marine Biology* and *Animal Physiology*, Universidad de los Lagos (Puerto Montt, Chile).
 
 ## Supervision
 
-- **2025** — MSc thesis: *Cell size effects on heat tolerance in Drosophila*. Radboud University. (co-supervisor)
+- **2025** — MSc thesis: *Cell size effects on heat tolerance in Drosophila*. XXXXX. (co-supervisor)
 - **2024** — BSc thesis: *Variation in oxygen tolerance across populations of fruit flies*. Radboud University.
 - **2016 – 2017** — Three BSc theses on crustacean physiology, Universidad de los Lagos.
 
