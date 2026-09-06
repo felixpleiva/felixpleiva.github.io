@@ -17,7 +17,7 @@ page-layout: full
 
 ## 2026
 ::: {.pub}
-{{< fa file-lines >}} [Shokri M, Potapov A, De Leo F, **Leiva FP**, Uvarov LV, Basset A]{.pub-authors} (2026). [Metabolic responses to climate change in invertebrates](#). *Nature Communications*. **Accepted**.
+{{< fa file-lines >}} [Shokri M, Potapov A, De Leo F, **Leiva FP**, Uvarov LV, Basset A]{.pub-authors} (2026). [Global meta-analysis of metabolic responses to climate change in aquatic and terrestrial invertebrates](#). *Nature Communications*. **Accepted**.
 
 ::: {.pub-buttons}
 [Code](#){.pub-btn}
