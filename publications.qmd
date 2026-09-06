@@ -26,7 +26,7 @@ page-layout: full
 :::
 
 ::: {.pub}
-{{< fa file-lines >}} [Pennington CR, Norris E, Skubera M, Ba Y, Moffat R, Amaral OB, ..., **Leiva FP**, … Clark K]{.pub-authors} (2026). [Awareness and use of open research practices: An international survey of researchers across disciplines. Royal Society Open Science](#). *Royal Society Open Science*. **Accepted**.
+{{< fa file-lines >}} [Pennington CR, Norris E, Skubera M, Ba Y, Moffat R, Amaral OB, ..., **Leiva FP**, … Clark K]{.pub-authors} (2026). [Awareness and use of open research practices: An international survey of researchers across disciplines. Royal Society Open Science](https://doi.org/10.1098/rsos.260462). *Royal Society Open Science*. **Accepted**.
 
 ::: {.pub-buttons}
 [Code](#){.pub-btn}
