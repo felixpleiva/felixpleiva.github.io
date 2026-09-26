@@ -65,7 +65,7 @@ Every paper I lead ships with a public, reproducible repository — raw data, R 
 I am currently particularly interested in the following questions:
 
 1. *What is the minimum scaffold a physiology paper needs to be truly reproducible?*
-2. *Which Quarto + `renv` + `targets` patterns are robust enough to teach in a one-week workshop?*
+2. *Which Quarto + `Positron` + `targets` patterns are robust enough to teach in a one-week workshop?*
 3. *How do we make data publication as low-friction as preprint posting?*
 
 ::: {.proj-buttons}

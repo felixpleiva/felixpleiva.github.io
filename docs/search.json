@@ -60,7 +60,7 @@
     "href": "projects.html#b58fc729-690b-4000-b19f-365a4093b2ff7b7b3c20666120636f64652d6272616e6368203e7d7d-reproducible-workflows-for-physiology",
     "title": "Projects",
     "section": " Reproducible workflows for physiology",
-    "text": "Reproducible workflows for physiology\nEvery paper I lead ships with a public, reproducible repository — raw data, R code, and the figures that made it into the manuscript. I’m slowly building tools and templates around this practice so that the next student or collaborator can rerun an analysis end-to-end with one command.\nI am currently particularly interested in the following questions:\n\nWhat is the minimum scaffold a physiology paper needs to be truly reproducible?\nWhich Quarto + renv + targets patterns are robust enough to teach in a one-week workshop?\nHow do we make data publication as low-friction as preprint posting?\n\n\nTemplate_for_publications ordenaR All paper repos"
+    "text": "Reproducible workflows for physiology\nEvery paper I lead ships with a public, reproducible repository — raw data, R code, and the figures that made it into the manuscript. I’m slowly building tools and templates around this practice so that the next student or collaborator can rerun an analysis end-to-end with one command.\nI am currently particularly interested in the following questions:\n\nWhat is the minimum scaffold a physiology paper needs to be truly reproducible?\nWhich Quarto + Positron + targets patterns are robust enough to teach in a one-week workshop?\nHow do we make data publication as low-friction as preprint posting?\n\n\nTemplate_for_publications ordenaR All paper repos"
   },
   {
     "objectID": "index.html",
