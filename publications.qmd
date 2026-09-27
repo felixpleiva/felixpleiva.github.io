@@ -20,8 +20,8 @@ page-layout: full
 {{< fa file-lines >}} [Shokri M, Potapov A, De Leo F, **Leiva FP**, Uvarov LV, Basset A]{.pub-authors} (2026). [Global meta-analysis of metabolic responses to climate change in aquatic and terrestrial invertebrates](https://doi.org/10.1038/s41467-026-77865-7). *Nature Communications*. **Accepted**.
 
 ::: {.pub-buttons}
-[Code]([https://doi.org/10.17605/OSF.IO/Q6TXP){.pub-btn}
-[Data]([https://doi.org/10.17605/OSF.IO/Q6TXP){.pub-btn}
+[Code](https://doi.org/10.17605/OSF.IO/Q6TXP){.pub-btn}
+[Data](https://doi.org/10.17605/OSF.IO/Q6TXP){.pub-btn}
 :::
 :::
 
