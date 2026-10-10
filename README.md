@@ -238,5 +238,4 @@ When you want to switch from `felixpleiva.github.io` to your own domain (e.g. `f
 
 ## License
 
-All site content is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-Configuration code (Quarto / SCSS) is MIT.
+© 2026 Félix P. Leiva. Unless otherwise noted, the content of this website is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
