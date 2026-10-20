@@ -17,11 +17,11 @@ page-layout: full
 
 ## 2026
 ::: {.pub}
-{{< fa file-lines >}} [Polinder J, Collas FPL, **Leiva FP**, Oswald SB, Schoor MM, Verberk WCEP, Hendriks AJ]{.pub-authors} (2026). [Scaling of dimensions and concentrations of plastics in two Dutch rivers](#). *Environmental Monitoring and Assessment*. **Accepted**.
+{{< fa file-lines >}} [Polinder J, Collas FPL, **Leiva FP**, Oswald SB, Schoor MM, Verberk WCEP, Hendriks AJ]{.pub-authors} (2026). [Scaling of dimensions and concentrations of plastics in two Dutch rivers](https://doi.org/10.1007/s10661-026-16029-y). *Environmental Monitoring and Assessment*. **198**, 1227.
 
 ::: {.pub-buttons}
-[Code](#){.pub-btn}
-[Data](#){.pub-btn}
+[Code](https://doi.org/10.5281/zenodo.17193921){.pub-btn}
+[Data](https://doi.org/10.5281/zenodo.17193921){.pub-btn}
 :::
 :::
 
