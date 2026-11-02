@@ -17,6 +17,15 @@ page-layout: full
 
 ## 2026
 ::: {.pub}
+{{< fa file-lines >}} [Xiong J,**Leiva FP**, Schreyers LJ, Hanssen SV, Wicke B, Hendriks AJ]{.pub-authors} (2026). [Quantifying scaling relationships between company size and environmental impacts](#). *Journal of Industrial Ecology*. Accepted.
+
+::: {.pub-buttons}
+[Code](#){.pub-btn}
+[Data](#){.pub-btn}
+:::
+:::
+
+::: {.pub}
 {{< fa file-lines >}} [Polinder J, Collas FPL, **Leiva FP**, Oswald SB, Schoor MM, Verberk WCEP, Hendriks AJ]{.pub-authors} (2026). [Scaling of dimensions and concentrations of plastics in two Dutch rivers](https://doi.org/10.1007/s10661-026-16029-y). *Environmental Monitoring and Assessment*. **198**, 1227.
 
 ::: {.pub-buttons}
